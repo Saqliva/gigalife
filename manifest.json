@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "ギガライフ便",
+    "version": "1.0",
+    "description": "ギガファイル便で保持期間を100日に自動設定します。",
+    "content_scripts": [{
+    "matches": ["https://gigafile.nu/"],
+    "js": [
+        "content.js"
+    ]
+    }]
+}
